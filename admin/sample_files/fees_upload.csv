@@ -1,0 +1,4 @@
+reg_no,year,amount_paid,payment_mode,paid_by,paid_at,total_fees
+10148,2015,5000,cash,tim,10/8/2015,10000
+10150,2015,5000,cash,paul,7/10/2016,20000
+10151,2015,10000,cheque,sam,12/25/2015,20000

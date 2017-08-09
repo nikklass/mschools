@@ -1,0 +1,28 @@
+IndexIgnore .htaccess */.??* *~*#*/HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName biasharalink.com
+AuthUserFile /home2/biashara/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home2/biashara/public_html/_vti_pvt/service.grp
+
+<IfModule mod_rewrite.c>
+ Options +FollowSymLinks
+ Options +Indexes
+ RewriteEngine On
+ RewriteCond %{SCRIPT_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteRule ^(.*)$ index.php?x=$1 [L,QSA]
+ RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+ RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+ #Force to use non-www address
+ RewriteCond %{HTTP_HOST} ^www\.noq\.co\.ke [NC]
+ RewriteRule ^(.*)$ http://noq.co.ke/$1 [L,R=301]
+</IfModule>

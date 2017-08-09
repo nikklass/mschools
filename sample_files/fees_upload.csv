@@ -1,0 +1,4 @@
+reg_no,year,payment_mode,paid_by,paid_at,fees_paid,total_required_fees
+10148,2017,cash,Tim Barnett,10/8/2015,5000,10000
+10150,2017,cash,Paul Otuoma,7/10/2016,5000,20000
+10151,2017,cheque,Sam Nyoike,12/25/2015,10000,20000

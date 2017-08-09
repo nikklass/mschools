@@ -1,0 +1,8 @@
+[14-Jul-2016 02:19:41 Africa/Nairobi] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/pendosof/public_html/admin/api/includes/DB_handler.php on line 1742
+[15-Jul-2016 21:54:56 Africa/Nairobi] PHP Fatal error:  Call to a member function execute() on a non-object in /home/pendosof/public_html/admin/api/includes/DB_handler.php on line 1505
+[15-Jul-2016 21:59:17 Africa/Nairobi] PHP Fatal error:  Call to a member function execute() on a non-object in /home/pendosof/public_html/admin/api/includes/DB_handler.php on line 1505
+[15-Jul-2016 22:03:24 Africa/Nairobi] PHP Fatal error:  Call to a member function execute() on a non-object in /home/pendosof/public_html/admin/api/includes/DB_handler.php on line 1505
+[18-Jul-2016 10:35:18 Africa/Nairobi] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/pendosof/public_html/admin/api/includes/DB_handler.php on line 3048
+[18-Jul-2016 10:36:56 Africa/Nairobi] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/pendosof/public_html/admin/api/includes/DB_handler.php on line 3048
+[20-Jul-2016 11:11:43 Africa/Nairobi] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/pendosof/public_html/admin/api/includes/DB_handler.php on line 361
+[26-Jul-2016 20:04:43 Africa/Nairobi] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/pendosof/public_html/admin/api/includes/DB_handler.php on line 1888
